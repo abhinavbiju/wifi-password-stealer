@@ -5,7 +5,7 @@ This project demonstrates how Windows stores and exposes Wi-Fi profile informati
 This repository is created strictly for educational, research, and cybersecurity learning purposes.
 It does not, and cannot, break into networks or access credentials that the device does not already have stored.
 
-# ⚠️ Legal & Ethical Disclaimer
+# Legal & Ethical Disclaimer
 
 ## This script:
 
@@ -18,7 +18,7 @@ Must only be used on systems you own or have explicit permission to analyze
 Misuse of this script may violate local, state, or federal law.
 You are solely responsible for using this project ethically and legally.
 
-# 🧠 Purpose
+# Purpose
 
 This project exists to help learners understand:
 
@@ -32,7 +32,7 @@ How credential exposure occurs on endpoints, and how to defend against it
 
 This knowledge supports cybersecurity training and responsible security research.
 
-# 🛠️ Requirements
+# Requirements
 
 Windows 10 or Windows 11
 
@@ -40,11 +40,11 @@ Python 3.x
 
 Standard user or administrator privileges (depending on system configuration)
 
-# 📥 Installation
+# Installation
 git clone https://github.com/<your-username>/<your-repo>
 cd <your-repo>
 
-# ▶️ Usage
+# Usage
 
 ## Run the script:
 
@@ -66,7 +66,7 @@ Save the results to wificreds.txt
 
 Automatically open the file in Notepad
 
-# 📁 Output Example
+# Output Example
 
 A typical output file may include:
 
@@ -75,12 +75,12 @@ Authentication         : WPA2-Personal
 Security key           : Present
 Key Content            : examplepassword123
 
-# 📂 Project Structure
+# Project Structure
 wifi.py           # Main script
 wificreds.txt     # Generated Windows Wi-Fi profile report (created when run)
 README.md         # Documentation
 
-# 🔐 Security Awareness
+# Security Awareness
 
 This project illustrates important security concepts:
 
@@ -92,7 +92,7 @@ Strong endpoint security prevents unauthorized local access
 
 Admins should audit wireless profiles regularly
 
-# 📚 Educational Use Only
+# Educational Use Only
 
 This project is intended for:
 
